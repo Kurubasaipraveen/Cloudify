@@ -1,0 +1,41 @@
+.table-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dynamic-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dynamic-table th,
+.dynamic-table td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.dynamic-table th {
+  background: #f1f1f1;
+}
+
+.add-row-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.add-row-button:hover {
+  background: #333;
+}
